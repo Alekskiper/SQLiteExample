@@ -4,27 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:gravity="end"
-    >
-
+    tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100dp"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="Read DB"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="424dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="369dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="167dp"
         android:text="Hello World!"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="198dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="205dp" />
 </android.support.constraint.ConstraintLayout>
